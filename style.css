@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    font-family: "inter";
+}
+
+#menusuperior {
+    background-color: #303030;
+    height: 475px;
+}
+
+#título-menusuperior {
+    color: #FFFFFF;
+    font-size: 60px;
+    margin-left: 62px;
+    padding-top: 206px;
+    font-weight: 600;
+    line-height: 72px;
+}
+
+#texto-menusuperior{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 62px;
+    margin-top: 28px;
+    line-height: 28px;
+}
+
+#menuinformacional {
+    background-color: #F9F9F9;
+    height: 229px;
+}
+
+.cards{
+    margin-top: 88px;
+}
+
+#informacional1{
+    margin-left: 93px;
+}
+
+#informacional2{
+    margin-left: 125px;
+}
+
+#informacional3{
+    margin-left: 190px;
+}
+
+#secaodescritiva{
+    display: grid;
+    padding-bottom: 70px;
+    color: #000000;
+}
+
+#imagem-secaodescritiva{
+    margin-top: -410px;
+    margin-bottom: 25px;
+    margin-left: 810px;
+    width: 510px;
+    height: 605;
+    border-radius: 30px;
+}
+
+#fachadacasa{
+    margin-top: -410px;
+    margin-bottom: 25px;
+    margin-left: 810px;
+    width: 510px;
+    height: 605px;
+    border-radius: 30px;
+    display: none;
+}
+
+#titulo-secaodescritiva{
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-top: 265px;
+    margin-bottom: -45px;
+    margin-left: 38px;
+}
+
+#texto-secaodescritiva{
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 30px;
+    margin-top: 100px;
+    line-height: 30px;
+    margin-left: 38px;
+}
+
+#formulario{
+    background-color: #303030;
+    height: 670px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+#titulo-formulario{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+input{
+    width: 480px;
+    height: 72px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 10px;
+    margin-top: 65px;
+    border: 0px;
+    font-family: "raleway";
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    padding-left: 30px;
+}
+
+::placeholder{
+    color: rgb(173, 170, 170);
+}
+
+button{
+    margin-top: 85px;
+    margin-bottom: 85px;
+    width: 286px;
+    height: 74px;
+    border-radius: 10px;
+    background-color: #C07212;
+    color:#FFFFFF;
+    border: 0px;
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #f7a33d;
+    color: white;
+    transform: translateY(-9px);
+    box-shadow: 0px 10px 15px #525151;
+    transition-duration: 0.5s;
+}
+
+#setadireita{
+    margin-left:1325px;
+    margin-top: -127px;
+    background-color: #303030;
+    cursor: pointer;
+}
+
+#setadireita:hover{
+    transform: translateY(-7px);
+    transition-duration: 0.5s;
+}
+
+#setaesquerda{
+    margin-left:782px;
+    margin-top: -347px;
+    background-color: #303030;
+    cursor: pointer;
+    display: none;
+}
+
+#setaesquerda:hover{
+    transform: translateY(-7px);
+    transition-duration: 0.5s;
+}
+
+
+
+
+
+
+    

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>DESAFIO 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--MENU SUPERIOR INÍCIO-->
+    <div id="menusuperior">
+        <h1 id="título-menusuperior" > Tradição em projetos de arquitetura </h1>
+        <h3 id="texto-menusuperior" > Arquitetura residencial e comercial. </h3>
+    </div>
+    <!--MENU SUPERIOR FINAL-->
+
+    <!--MENU INFORMACIONAL INÍCIO-->
+    <div id="menuinformacional" >
+        <img id="informacional1" class="cards" src="Cards/informacional1.svg" alt="">
+        <img id="informacional2" class="cards" src="Cards/informacional2.svg" alt="">
+        <img id="informacional3" class="cards" src="Cards/informacional3.svg" alt="">
+    </div>
+    <!--MENU INFORMACIONAL FINAL-->
+
+    <!--SEÇÃO DESCRITIVA INÍCIO-->
+    <div id="secaodescritiva" >
+        <p id="titulo-secaodescritiva" >Arquitetos com História e Experiência  </p>
+        <P id="texto-secaodescritiva" >Nós realizamos desde 2002 projetos e gerenciamento de obras.  <br>
+            Com mais de 800 projetos e 2.000.000 de m² construídos, tendo <br>
+            como principal proposta transformar em realidade os sonhos de <br>
+            seus clientes, criando projetos personalizados, unindo a tradição <br>
+            e a modernidade em nossos projetos.  </P> 
+           <img id="setadireita" onclick="RolarParaDireita()" src="Icones/setadireita.svg" alt="">
+           <img src="Imagens/sala.svg" id="imagem-secaodescritiva" alt="">
+           <img src="Imagens/fachadacasa.png" id="fachadacasa" alt="">
+           <img id="setaesquerda" onclick="RolarParaEsquerda()" src="Icones/setaesquerda.svg" alt="">
+    </div>
+    <!--SEÇÃO DESCRITIVA FINAL-->
+
+    <!--FORMULÁRIO INÍCIO-->
+    <div id="formulario" >
+     <h1 id="titulo-formulario" >Conheça mais sobre nossos serviços:</h1>
+     <form action="https://api.sheetmonkey.io/form/q56WT3J4NQboJonYeeJAj1" method="post">
+        <input type="text" placeholder="Nome" name="Name" required > <br> 
+        <input type="email" placeholder="Email" name="Email" required> <br>
+        <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+        <button type="submit">Fale Conosco</button>
+     </form>   
+    </div>
+    <!--FORMULÁRIO FINAL-->
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
